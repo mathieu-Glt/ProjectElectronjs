@@ -1,0 +1,90 @@
+.todo-app {
+    background-color: brown;
+    border: 3px gold;
+    border-radius: 5px;
+    width: 500px;
+    height: 500px;
+    margin:  auto;
+}
+
+.todoInput {
+    width: 50px;
+    margin: auto;
+    display: inline-block;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: auto;
+  
+}
+
+#addBtn {
+    background-color: rgb(143, 57, 57);
+    width: 100px;
+    margin-top: 10px;
+    border: none;
+}
+
+.todoList {
+    list-style-type: none; /* Supprime les puces par défaut */
+      padding: 0;
+      margin: 0;
+      width: 300px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.todoListli {
+    padding: 15px;
+      border-bottom: 1px solid #f05006;
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+      transition: background-color 0.3s ease;
+      width: 200px;
+      margin: auto;
+      background-color: #ffbb00;
+
+  
+}
+
+.todoListli:hover {
+    width: 200px;
+    margin: auto
+}
+
+.todoListli:last-child {
+    border-bottom: none; ;
+}
+.todoListli{
+    list-style: none;
+}
+
+.done-btn {
+    background-color: rgb(255, 72, 0);
+    margin:10px
+}
+
+.delete-btn {
+    background-color: rgb(255, 0, 0);
+    margin: 10px;
+ 
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: .5;
+}
+
+h2 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+   
+}
